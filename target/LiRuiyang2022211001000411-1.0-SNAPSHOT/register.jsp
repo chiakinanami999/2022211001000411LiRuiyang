@@ -10,25 +10,21 @@
 <head>
     <title>Register JSP page</title>
     <style>
-        h1 {
+        h1 div {
             text-align: center;
         }
-        div {
-            text-align: center;
-        }
+
     </style>
 </head>
 <body>
     <h1>New User Registration</h1>
     <div>
-        <form>
-            <input type="text" placeholder="UserName"><br/>
-            <input type="text" placeholder="ID"><br/>
-            <input type="email" placeholder="Email"><br/>
-            <label>Gender : </label>
-            <label><input type="radio" name="gender">Male</label>
-            <label><input type="radio" name="gender">Female</label><br/>
-            <input type="text" placeholder="Date of Birth (yyyy-mm-dd)"><br/>
+        <form method="post" action="register">
+            username<input type="text" name="username"/><br/>
+            ID<input type="text" name="password"/><br/>
+            email<input type="text" name="email"/><br/>
+            Gender: <input type="radio" name="gender" value="Male">Male <input type="radio" name="gender" value="Female">Female<br/>
+            <input type="text" name="birthDate"><br/>
             <input type="submit" value="Register"/>
         </form>
 
