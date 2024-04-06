@@ -8,7 +8,7 @@ import java.io.PrintWriter;
 import java.sql.*;
 import java.util.Set;
 
-@WebServlet(urlPatterns = "/register")
+//@WebServlet(urlPatterns = "/register")
 
 public class RegisterServlet<set, OrderList> extends HttpServlet {
 
@@ -17,7 +17,7 @@ public class RegisterServlet<set, OrderList> extends HttpServlet {
     @Override
     public void init() throws ServletException {
         String driver = "com.microsoft.sqlserver.jdbc.SQLServerDriver";
-        String url = "jdbc:sqlserver://localhost;databaseName=userdb;";
+        String url = "jdbc:sqlserver://localhost;databaseName=userdb";
         String username = "sa";
         String password = "admin123456789";
 

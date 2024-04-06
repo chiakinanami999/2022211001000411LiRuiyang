@@ -10,8 +10,8 @@ import java.io.PrintWriter;
 //@WebServlet(
 //        urlPatterns = {"/config"},
 //        initParams = {
-//                @WebInitParam(name = "name", value = "LiRuiyang"),
-//                @WebInitParam(name = "studentid", value = "2022211001000411"),
+//                @WebInitParam(name = "name", value = "Wuting"),
+//                @WebInitParam(name = "studentid", value = "2022211001000430"),
 //        },loadOnStartup = 1
 //)
 
